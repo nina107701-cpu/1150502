@@ -3,8 +3,8 @@ const modal = document.getElementById('wish-modal');
 const closeWishBtn = document.getElementById('close-wish');
 
 if (!app || !modal || !closeWishBtn) {
-  throw new Error('必要 DOM 節點不存在，請確認 index.html 結構。');
-}
+  console.warn('初始化中止：必要 DOM 節點不存在。');
+} else {
 
 const DATA = {
   love_today: [
@@ -146,3 +146,4 @@ closeWishBtn.onclick = () => { modal.classList.add('hidden'); setNav('home'); };
 modal.addEventListener('click', (e) => { if (e.target === modal) modal.classList.add('hidden'); });
 
 renderHome();
+}
