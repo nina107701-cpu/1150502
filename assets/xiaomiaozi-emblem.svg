@@ -1,11 +1,27 @@
-<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 360'>
-<defs><radialGradient id='g' cx='50%' cy='40%'><stop offset='0' stop-color='#9d6fff'/><stop offset='1' stop-color='#2b1647'/></radialGradient></defs>
-<circle cx='180' cy='180' r='164' fill='url(#g)' opacity='.35'/>
-<circle cx='180' cy='186' r='96' fill='#fff7ff'/><path d='M116 119l24-34 20 32M224 117l20-32 24 34' fill='#fff7ff'/>
-<path d='M136 116h88l-9-28H145z' fill='#6e3dc0'/><path d='M180 64l34 24h-68z' fill='#a97bff'/>
-<circle cx='147' cy='182' r='8' fill='#2f184a'/><circle cx='213' cy='182' r='8' fill='#2f184a'/><path d='M165 208q15 12 30 0' stroke='#2f184a' stroke-width='5' fill='none' stroke-linecap='round'/>
-<path d='M126 229q54 23 108 0' fill='none' stroke='#f0c964' stroke-width='6' stroke-linecap='round'/>
-<path d='M74 214q29-9 49 8-23 16-49-8z' fill='#f0c964'/><circle cx='63' cy='187' r='6' fill='#f0c964'/>
-<path d='M276 95a30 30 0 1 1-18 55 42 42 0 1 0 18-55z' fill='#f0c964'/>
-<g fill='#f7dd8d'><path d='M273 177l6 12 12 6-12 6-6 12-6-12-12-6 12-6z'/><path d='M94 90l4 8 8 4-8 4-4 8-4-8-8-4 8-4z'/></g>
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 768 1024'>
+  <defs>
+    <radialGradient id='bg' cx='50%' cy='28%' r='70%'><stop offset='0' stop-color='#2b1b78'/><stop offset='1' stop-color='#09042a'/></radialGradient>
+    <linearGradient id='hat' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='#8d65ff'/><stop offset='1' stop-color='#33207f'/></linearGradient>
+    <linearGradient id='gold' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='#ffe6a1'/><stop offset='1' stop-color='#d69f37'/></linearGradient>
+  </defs>
+  <rect width='768' height='1024' rx='40' fill='url(#bg)'/>
+  <g opacity='.8' fill='#ffe8a0'>
+    <circle cx='95' cy='150' r='3'/><circle cx='175' cy='124' r='2.6'/><circle cx='664' cy='190' r='3'/><circle cx='620' cy='420' r='2.8'/>
+    <path d='M130 210l6 12 12 6-12 6-6 12-6-12-12-6 12-6z'/><path d='M642 288l5 10 10 5-10 5-5 10-5-10-10-5 10-5z'/>
+  </g>
+  <ellipse cx='384' cy='864' rx='210' ry='72' fill='#5c43bf' opacity='.65'/>
+  <circle cx='384' cy='874' r='118' fill='none' stroke='#f3cd7a' stroke-opacity='.6' stroke-width='5'/>
+  <path d='M258 292q126-102 276-42t54 158q-28 112-210 120-170 8-232-108-47-88 112-128z' fill='url(#hat)'/>
+  <path d='M262 356q132-72 284-24' stroke='url(#gold)' stroke-width='8' fill='none'/>
+  <circle cx='476' cy='384' r='24' fill='none' stroke='url(#gold)' stroke-width='10'/>
+  <circle cx='406' cy='528' r='166' fill='#fffaff'/>
+  <path d='M278 432l72-88 60 92M478 438l54-84 70 86' fill='#fffaff'/>
+  <ellipse cx='346' cy='560' rx='30' ry='26' fill='#9c81ff'/><ellipse cx='464' cy='560' rx='30' ry='26' fill='#9c81ff'/>
+  <circle cx='346' cy='560' r='12' fill='#3a2782'/><circle cx='464' cy='560' r='12' fill='#3a2782'/>
+  <path d='M388 594q12 18 24 0' stroke='#c27b96' stroke-width='6' fill='none' stroke-linecap='round'/>
+  <path d='M366 618q42 30 84 0' stroke='#6c3e95' stroke-width='6' fill='none' stroke-linecap='round'/>
+  <path d='M246 680q138 124 284 0l44 126q-82 92-190 88-112-4-190-98z' fill='url(#hat)'/>
+  <circle cx='278' cy='652' r='48' fill='#fffaff'/><circle cx='500' cy='652' r='48' fill='#fffaff'/>
+  <path d='M150 640l42-74 56 42-58 62z' fill='url(#gold)'/><circle cx='202' cy='602' r='24' fill='#8d65ff'/>
+  <path d='M566 458a52 52 0 1 1-34 94 70 70 0 1 0 34-94z' fill='url(#gold)'/>
 </svg>
