@@ -1,0 +1,6 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'>
+<defs><linearGradient id='c' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='#e0cbff'/><stop offset='1' stop-color='#8054d7'/></linearGradient></defs>
+<circle cx='100' cy='100' r='90' fill='#a277ff' opacity='.16'/>
+<path d='M100 20l52 52-52 108L48 72z' fill='url(#c)' stroke='#f0c964' stroke-width='4'/>
+<path d='M100 20v160M48 72h104' stroke='#fff' stroke-opacity='.45' stroke-width='3'/>
+</svg>

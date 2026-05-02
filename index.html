@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>小喵子月蝕占卜室</title>
+    <meta name="description" content="小喵子月蝕占卜室｜聽見命運給你的回音" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <img class="bg-moon" src="assets/moon-stars.svg" alt="月亮星光背景" />
+      <img class="bg-circle" src="assets/magic-circle.svg" alt="魔法陣背景" />
+
+      <main id="app" class="screen-wrap"></main>
+
+      <nav class="bottom-nav">
+        <button data-nav="home" class="nav-btn active">首頁</button>
+        <button data-nav="ritual" class="nav-btn">儀式</button>
+        <button data-nav="cosmos" class="nav-btn">宇宙</button>
+        <button data-nav="wish" class="nav-btn">許願</button>
+      </nav>
+    </div>
+
+    <div id="wish-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="wish-title">
+      <div class="modal-card">
+        <h3 id="wish-title">願望已送出</h3>
+        <p>今夜的月光會替你保存心願。你可以把它藏在心裡，也可以帶著它慢慢往前走。</p>
+        <button id="close-wish" class="primary-btn">收下祝福</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

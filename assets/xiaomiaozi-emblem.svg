@@ -1,0 +1,11 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 360'>
+<defs><radialGradient id='g' cx='50%' cy='40%'><stop offset='0' stop-color='#9d6fff'/><stop offset='1' stop-color='#2b1647'/></radialGradient></defs>
+<circle cx='180' cy='180' r='164' fill='url(#g)' opacity='.35'/>
+<circle cx='180' cy='186' r='96' fill='#fff7ff'/><path d='M116 119l24-34 20 32M224 117l20-32 24 34' fill='#fff7ff'/>
+<path d='M136 116h88l-9-28H145z' fill='#6e3dc0'/><path d='M180 64l34 24h-68z' fill='#a97bff'/>
+<circle cx='147' cy='182' r='8' fill='#2f184a'/><circle cx='213' cy='182' r='8' fill='#2f184a'/><path d='M165 208q15 12 30 0' stroke='#2f184a' stroke-width='5' fill='none' stroke-linecap='round'/>
+<path d='M126 229q54 23 108 0' fill='none' stroke='#f0c964' stroke-width='6' stroke-linecap='round'/>
+<path d='M74 214q29-9 49 8-23 16-49-8z' fill='#f0c964'/><circle cx='63' cy='187' r='6' fill='#f0c964'/>
+<path d='M276 95a30 30 0 1 1-18 55 42 42 0 1 0 18-55z' fill='#f0c964'/>
+<g fill='#f7dd8d'><path d='M273 177l6 12 12 6-12 6-6 12-6-12-12-6 12-6z'/><path d='M94 90l4 8 8 4-8 4-4 8-4-8-8-4 8-4z'/></g>
+</svg>
