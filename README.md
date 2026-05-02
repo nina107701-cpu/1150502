@@ -11,7 +11,7 @@
 
 ## 圖片資產位置
 
-- `assets/xiaomiaozi-emblem.svg`
+- `assets/ChatGPT lmage-01.png`
 - `assets/magic-circle.svg`
 - `assets/crystal.svg`
 - `assets/moon-stars.svg`
