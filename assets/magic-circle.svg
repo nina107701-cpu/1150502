@@ -1,0 +1,8 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'>
+<g fill='none' stroke='#f0c964' opacity='.8'>
+<circle cx='200' cy='200' r='170' stroke-width='3'/><circle cx='200' cy='200' r='138' stroke-width='2'/><circle cx='200' cy='200' r='104' stroke-width='1.6'/>
+<path d='M200 30v340M30 200h340M78 78l244 244M322 78L78 322' stroke-width='1.2' opacity='.65'/>
+<path d='M200 92a52 52 0 1 1-1 0z' stroke-width='1.6'/>
+<path d='M200 140l10 18 20 10-20 10-10 18-10-18-20-10 20-10z' fill='#f0c964' stroke='none'/>
+<path d='M200 250a40 40 0 1 0 0 1z' stroke-width='1.6'/>
+</g></svg>
